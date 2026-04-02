@@ -6,7 +6,7 @@ A full-stack web application that helps users compare food prices across platfor
 
 ## 🚀 Live Demo
 
-🔗 https://your-app.vercel.app
+🔗 https://food-price-optimizer.netlify.app/
 
 ---
 
@@ -45,60 +45,6 @@ A full-stack web application that helps users compare food prices across platfor
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/yourusername/food-price-comparison.git
-cd food-price-comparison
-```
-
----
-
-### 2️⃣ Setup Backend
-
-```bash
-cd backend
-npm install
-```
-
-Create `.env` file:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
-
-Run backend:
-
-```bash
-npm run dev
-```
-
----
-
-### 3️⃣ Setup Frontend
-
-```bash
-cd frontend
-npm install
-```
-
-Create `.env` file:
-
-```env
-VITE_API_URL=http://localhost:5000
-```
-
-Run frontend:
-
-```bash
-npm run dev
-```
-
----
-
 ## 🌐 API Endpoint
 
 ```http
@@ -111,7 +57,9 @@ GET /search?item=thali
 
 * Search Results Page
 * Price Comparison Modal
-  *(Add screenshots here later)*
+  <img width="1827" height="912" alt="image" src="https://github.com/user-attachments/assets/68c8d899-617d-4046-abc5-763855b6dafd" />
+  <img width="1751" height="891" alt="image" src="https://github.com/user-attachments/assets/1a8ce914-0d77-4d34-882b-01cc052e6d19" />
+
 
 ---
 
@@ -133,11 +81,6 @@ Developed a full-stack food price comparison web application using React, Node.j
 
 ## 👨‍💻 Author
 
-**Your Name**
-GitHub: https://github.com/yourusername
+**Abhishek Kumar Singh**
+GitHub: https://github.com/AbhishekSingh459
 
----
-
-## ⭐ Show your support
-
-If you like this project, give it a ⭐ on GitHub!
